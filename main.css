@@ -1,0 +1,44 @@
+
+body {
+    height: 100%;
+    text-align: center;
+    color: azure;
+    background-color: rgb(2, 2, 2);
+}
+
+.containerHead{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 50pt;
+    /* border: 2px solid azure; */
+}
+
+#eventKey2{
+    /* border: 2px solid azure; */
+    width: 60vw;
+    margin: 15px;
+    height: 30%;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 250px;
+    height: 25%;
+    font-size: 30pt;
+    border: 2px solid azure;
+}
